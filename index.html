@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            color: #333;
+        }
+        .form-section {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .form-section h2 {
+            color: #007BFF;
+        }
+        .form-section p {
+            font-size: 16px;
+            color: #555;
+        }
+        .donation-options {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .donation-option {
+            padding: 15px;
+            background-color: #007BFF;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .donation-option:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Support Our Cause</h1>
+            <p>Your donation helps us make a difference. Every contribution counts!</p>
+        </header>
+
+        <div class="form-section">
+            <h2>Sign Up to Donate</h2>
+            <p>Please fill out the form below to sign up and donate to our cause.</p>
+
+            <!-- Embed your marketing form here -->
+            <div
+                data-form-id="97da1c1c-0bf5-ef11-be20-6045bdad3af5"
+                data-form-api-url="https://public-ind.mkt.dynamics.com/api/v1.0/orgs/c96fc89e-d3e7-ef11-933d-6045bdaacfd1/landingpageforms"
+                data-cached-form-url="https://assets-ind.mkt.dynamics.com/c96fc89e-d3e7-ef11-933d-6045bdaacfd1/digitalassets/forms/97da1c1c-0bf5-ef11-be20-6045bdad3af5">
+            </div>
+            <script src="https://cxppusa1formui01cdnsa01-endpoint.azureedge.net/ind/FormLoader/FormLoader.bundle.js"></script>
+            <script>document.documentElement.lang = navigator.language;</script>
+        </div>
+
+        <div class="donation-options">
+            <button class="donation-option">Donate $10</button>
+            <button class="donation-option">Donate $50</button>
+            <button class="donation-option">Donate $100</button>
+        </div>
+
+        <div class="footer">
+            <p>Thank you for your generosity!</p>
+        </div>
+    </div>
+
+</body>
+</html>
